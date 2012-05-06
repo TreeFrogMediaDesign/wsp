@@ -1,0 +1,532 @@
+/* 
+Tantek Celik's CSS Reset
+(CC) 2004 Tantek Celik. Some Rights Reserved.
+http://creativecommons.org/licenses/by/2.0
+This style sheet is licensed under a Creative Commons License.
+CSSresetr.com
+*/
+:link, :visited {
+	text-decoration: none;
+	}
+ul, ol {
+	list-style: none;
+	}
+h1, h2, h3, h4, h5, h6, pre, code, p {
+	font-size: 1em;
+	}
+ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, 
+form, body, html, p, blockquote, fieldset, input {
+	padding: 0;
+	margin: 0;
+	}
+a img, :link img, :visited img {
+	border: none;
+	}
+address {
+	font-style: normal;
+	}
+
+
+/*---------------------------------Nav Elements-----------------------*/
+body {
+	font: 100%/1.5 'Cantata One', serif;
+	max-width: 78em;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	background-image: url("../images/barnwood_bg.jpg");
+	background-repeat: repeat;
+	background-position: center top;
+	margin: 0 auto;
+}
+
+p {
+	font: 'Cantata One', serif;
+	color: #150401;
+}
+
+h1 {
+	font: 'Alice', serif;
+	font-size: 2.85em;
+	color: #f4f4f4;
+	text-shadow: .09375em .09375em .09375em #150401;
+	width: 50.8076923076923%;
+	margin-top: 2%;
+}
+
+h2 {
+	font: 'Cantata One', serif;
+	font-size: 1.75em;
+	color: #f4f4f4;
+	text-shadow: .09375em .09375em .09375em #150401;
+	width: 50.8076923076923%;
+	margin-top: .0615384615385%;
+}
+
+h3 {
+	font: 'Cantata One', serif;
+	font-size: 1.5em;
+	color: #f4f4f4;
+	text-shadow: .09375em .09375em .09375em #150401;
+	margin-top: 2%;
+}
+
+h4 {
+	font: 'Cantata One', serif;
+	font-size: 1em;
+	color: #7b0003;
+	margin-top: 1.25em;
+}
+
+h5 {
+	font: 'Cantata One', serif;
+	font-size: 1.75em;
+	color: #f4f4f4;
+	text-shadow: .09375em .09375em .09375em #150401;
+	margin-top:5%;
+	text-align: center;
+}
+
+h6 {
+	font: 'Cantata One', serif;
+	font-size: 1.5em;
+	color: #f4f4f4;
+	margin-top:3em;
+	text-align: center;
+}
+
+/*-----------------------------------Nav Bar--------------------*/
+nav ul li a:link {
+	color: #7b0003;
+}
+
+nav ul li a:visited {
+	color: #150401;
+}
+
+nav ul li a:hover {
+	color: #f4f4f4;
+	background150401;
+}
+
+nav ul li a:active {
+	color: #d4a017;
+}
+
+nav ul li {
+	background: rgba(123, 0, 3, .5);
+	display: inline;
+	list-style-type: none;
+	width: 7.9375em;
+	margin: 0%;
+	overflow: hidden;
+	padding: .9375em .56em .9375em .56em;
+	max-width: 100%;
+	border: .0625em solid #150401;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	height: 1.875em;
+	line-height: 1.875em;
+	text-align: center;
+	color: #150401;
+}
+
+/*-------------------------------------Top Section--------------------*/
+#header_container {
+	border: none;
+	width: 100%;
+}
+
+#header_container img {
+	max-width: 100%;
+}
+
+#intro {
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: .625em;
+	padding: .5%;
+	margin: 0% 0% 2% 2%;
+	width: 95%;
+	box-shadow: 3125em 3125em 3125em #150401;
+}
+
+#facebook {
+	float: right;
+	max-width: 100%;
+}
+
+#twitter {
+	float: right;
+	max-width: 100%;
+}
+
+#youtube {
+	float: right;
+	max-width: 100%;
+}
+
+#apollo_container {
+	border: none;
+	width: 27.8846153846154%;
+	float: right;
+}
+
+#apollo_container img {
+	max-width: 100%;
+}	
+
+#gypsian_container {
+	border: none;
+	width: 40.0641025641026%;
+	float: left;
+}	
+
+#gypsian_container img {	
+	max-width: 100%;
+}
+
+/*-------------------------------Photo Gallery----------------------*/	
+
+ol {
+	list-style-type: none;
+	width: 100%;
+	margin: .625em auto;
+	overflow: hidden;
+	padding: 0.400641025641%;
+}
+
+#gallery {
+	margin-left: 13.5%;
+}	
+
+li {	
+	float: left;
+	overflow: hidden;
+	margin-top: .625em;
+	margin-left: 1.25em;
+}	
+
+ol li a {
+	border: .1875em solid #7b0003;
+	display: block;
+	height: 15.25em;
+	width: 25.9375em;
+	outline: 0;
+}
+
+ol li a:visited {
+	border-color: #150401;
+}
+
+ol li a:hover {
+	border-color: #f4f4f4;
+}
+
+ol li a:active {
+	border-color: #d4a017;
+}
+
+/*-----------------------------------Bottom Section------------------*/
+#bottom {
+	-moz-column-count: 4;
+	-moz-column-gap: 2.25em;
+}
+
+#stallions {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+#mares {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+#foals {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}	
+
+#sale {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+h4 a:link{
+	color: #7b0003;
+}
+
+h4 a:visited{
+	color: #150401;
+}
+
+h4 a:hover{
+	color: #f4f4f4;
+}
+
+h4 a:active{
+	color: #d4a017;
+}
+
+span a {
+text-decoration: none;
+}
+
+/*-------------------------------------Form Section-------------------*/
+table {
+	border-collapse: collapse;
+	border: .0625em solid #150401;
+	margin: 1em auto;
+}
+
+td {
+	border: .0625em solid #150401;
+	background-color: rgba(245, 237, 217, 0.5);
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	background-color: rgba(50, 28, 18, 0.5);
+	color: #f1f1f1;
+	padding: 0.3em;
+}	
+
+form {
+	color: #150401;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 35.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+	float: left;
+	clear: left;
+	margin: 1em 1em 1em 28.5%;
+}
+
+#name_first {
+	width: 100%;
+	float: left;
+}
+
+#name_last {
+	width: 100%;
+	float: left;
+}
+
+#phone {
+	width: 100%;
+	float: left;
+}
+
+#email {
+	width: 100%;
+	float: left;
+}
+
+#regarding_box {
+	margin-top: 2.5em;
+}	
+
+#message_box {
+	margin-top: 1.5em;
+}	
+
+#message {
+	width: 100%;
+	float: left;
+	margin-bottom: 1.5em;
+}
+
+#submit {
+	float: right;
+	margin-top: 1.5em;
+}
+
+/*---------------------------------Footer------------------------------*/
+footer {
+	
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer p {
+	color: #ffffff;
+	margin: 0;
+	padding: .3125em .625em;
+	text-align: center;
+}	
+
+/* =Media Queries
+================================================================== */
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width:959px) {
+		#head_container img {
+			max-width: 100%;
+		}
+		
+		nav ul li {
+			clear: right;
+		}
+		
+		h1 {
+			font: 'Alice', serif;
+			font-size: 2.85em;
+			color: #f4f4f4;
+			text-shadow: .09375em .09375em .09375em #150401;
+			width: 75.8076923076923%;
+			margin-top: 2%;
+		}
+		
+		h2 {
+			font: 'Cantata One', serif;
+			font-size: 1.75em;
+			color: #f4f4f4;
+			text-shadow: .09375em .09375em .09375em #150401;
+			width: 99.8076923076923%;
+			margin-top: .0615384615385%;
+		}
+		
+		#bottom {
+			-moz-column-count: 1;
+			-moz-column-gap: 1.5em;
+			width: 93.5%;
+		}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#head_container img {
+			max-width: 100%;
+		}
+		
+		nav ul li {
+			clear: right;
+		}
+		
+		h1 {
+			font: 'Alice', serif;
+			font-size: 2.5em;
+			color: #f4f4f4;
+			text-shadow: .09375em .09375em .09375em #150401;
+			width: 95.8076923076923%;
+			margin-top: 2%;
+		}
+		
+		h2 {
+			font: 'Cantata One', serif;
+			font-size: 1.75em;
+			color: #f4f4f4;
+			text-shadow: .09375em .09375em .09375em #150401;
+			width: 75.8076923076923%;
+			margin-top: .0615384615385%;
+		}
+		
+		#facebook {
+			display: none;
+		}
+
+		#twitter {
+			display: none;
+		}
+
+		#youtube {
+			display: none;
+		}
+		
+		#bottom {
+			-moz-column-count: 1;
+			-moz-column-gap: 1.5em;
+			width: 95.5%;
+		}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#head_container img {
+			max-width: 100%;
+		}
+		
+		nav ul li {
+			clear: right;
+		}
+		
+		h1 {
+			font: 'Alice', serif;
+			font-size: 2.0em;
+			color: #f4f4f4;
+			text-shadow: .09375em .09375em .09375em #150401;
+			width: 95.8076923076923%;
+			margin-top: 2%;
+		}
+		
+		h2 {
+			font: 'Cantata One', serif;
+			font-size: 1.75em;
+			color: #f4f4f4;
+			text-shadow: .09375em .09375em .09375em #150401;
+			width: 95.8076923076923%;
+			margin-top: .0615384615385%;
+		}
+		
+		#facebook {
+			display: none;
+		}
+
+		#twitter {
+			display: none;
+		}
+
+		#youtube {
+			display: none;
+		}
+		
+		#bottom {
+			-moz-column-count: 1;
+			-moz-column-gap: .625em;
+			width: 95.5%;
+		}
+		}
