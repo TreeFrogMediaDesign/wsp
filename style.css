@@ -27,19 +27,19 @@ address {
 	}
 /*---------------------------------Nav Elements-----------------------*/
 body {
-	font: 100%/.875 'Della Respira', serif;
+	font-family: 100%/.875 'Della Respira', serif;
 	color: #333333;
 	font-size: 14px;
 	margin: 0 auto;
 }
 
 p {
-	font: 100%/.875 'Della Respira', serif;
+	font-family: 100%/.875 'Della Respira', serif;
 	color: #333333;
 }
 
 h1 {
-	font: 'Bubblegum Sans', cursive;
+	font-family: 'Bubblegum Sans', cursive;
 	font-size: 2.85em;
 	color: #150401;
 	text-shadow: .09375em .09375em .09375em #150401;
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-	font: 'Bubblegum Sans', cursive;
+	font-family: 'Bubblegum Sans', cursive;
 	font-size: 1.75em;
 	color: #150401;
 	text-shadow: .09375em .09375em .09375em #150401;
@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-	font: 'Bubblegum Sans', cursive;
+	font-family: 'Bubblegum Sans', cursive;
 	font-size: 1.5em;
 	color: #150401;
 	text-shadow: .09375em .09375em .09375em #150401;
@@ -82,7 +82,7 @@ nav ul li a:visited {
 
 nav ul li a:hover {
 	color: #012851;
-	background150401;
+	background: #150401;
 }
 
 nav ul li a:active {
@@ -112,7 +112,6 @@ nav ul li a {
 
 /*---------------------------------Footer------------------------------*/
 footer {
-	
 	clear: both;
 	margin: 0 auto;
 	width: 100%;
