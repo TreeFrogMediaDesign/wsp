@@ -28,13 +28,14 @@ address {
 /*---------------------------------Nav Elements-----------------------*/
 body {
 	font: 100%/.875 'Della Respira', serif;
-	color: #150401;
+	color: #333333;
+	font-size: 14px;
 	margin: 0 auto;
 }
 
 p {
 	font: 100%/.875 'Della Respira', serif;
-	color: #150401;
+	color: #333333;
 }
 
 h1 {
