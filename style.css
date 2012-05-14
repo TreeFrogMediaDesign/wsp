@@ -110,6 +110,79 @@ nav ul li a {
 	color: #ffffff;
 }
 
+/*----------------------------------Form-------------------------------*/
+table {
+	border-collapse: collapse;
+	border: .0625em solid #150401;
+	margin: 1em auto;
+}
+
+td {
+	border: .0625em solid #150401;
+	background-color: rgba(245, 237, 217, 0.5);
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	background-color: rgba(50, 28, 18, 0.5);
+	color: #f1f1f1;
+	padding: 0.3em;
+}	
+
+form {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 35.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	clear: left;
+	margin: 1em 1em 1em 28.5%;
+}
+
+#name_first {
+	width: 100%;
+	float: left;
+}
+
+#name_last {
+	width: 100%;
+	float: left;
+}
+
+#email_address {
+	width: 100%;
+	float: left;
+}
+
+#phone_number {
+	width: 100%;
+	float: left;
+}
+
+#department {
+	margin-top: 2.5em;
+}	
+
+#message_box {
+	margin-top: 1.5em;
+}	
+
+#message {
+	width: 100%;
+	float: left;
+	margin-bottom: 1.5em;
+}
+
+#submit {
+	float: right;
+	margin-top: 1.5em;
+}
+
 /*---------------------------------Footer------------------------------*/
 footer {
 	clear: both;
