@@ -1,0 +1,837 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@font-face {
+    font-family: 'BubblegumSansRegular';
+    src: url('fonts/bubblegum/bubblegumsans-regular-webfont.eot');
+    src: url('fonts/bubblegum/bubblegumsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bubblegum/bubblegumsans-regular-webfont.woff') format('woff'),
+         url('fonts/bubblegum/bubblegumsans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* --- 
+CUSTOM RESET 
+--- */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block; overflow:hidden;}
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 12px; line-height: 1.5; }
+body, button, input, select, textarea { font-family: Arial, sans-serif; color: #666666; }
+::-moz-selection { background: #f58a18; color: #fff; text-shadow: none; }
+::selection { background: #f58a18; color: #fff; text-shadow: none; }
+.last{ 
+	border:none; 
+
+}	
+/* LINKS */
+a { color: #37DAC1; cursor: pointer; }
+a:hover { color: #042851; 
+transition: color 0.2s linear;-moz-transition: color 0.2s linear;-webkit-transition: color 0.2s linear;-o-transition: color 0.2s linear;  } 
+a:visited { color: ;}
+*:hover, *:focus, *:active { outline: 0; outline: none; }
+/* TYPO */
+abbr[title] { border-bottom: 1px dotted; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+p {margin:0 0 1em;}
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+blockquote { margin: 0 20px 20px 0; padding: 5px 5px 5px 15px; border-left: 1px solid #DDD; font-style: italic; color: #999; }
+b, strong, .strong { font-weight: bold; }
+small, .small { font-size: 85%; }
+address{font-style: normal;}
+/* LIST */
+dd { margin: 0 0 0 40px; }
+ul, ol, menu { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+/* EMBEDDED CONTENT */
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+/* FORM */
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+/* TABLE */
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+/* --- END NORMALIZE --- */
+
+
+/* ----
+STYLES
+Author: Brent C. Johns - Tree Frog Media Design
+---- */
+h1, h2, h3, h4, h5, h6 { 
+	margin: 0 0 1em 
+}
+
+h1 { 
+	font-size: 36px;  
+	color: #6693d6; 
+	font-weight: normal; 
+	font-family: 'BubblegumSansRegular';
+	font-style:normal;
+}
+
+h2 { 
+	font-size: 30px; 
+	color: #6693d6; 
+	font-weight: normal; 
+	font-family: 'BubblegumSansRegular';
+	font-style:normal;
+	text-align:center;
+}
+
+h3 { 
+	font-size: 18px;
+	text-align:center;
+	line-height:normal;
+}
+
+h4 { 
+	font-size: 16px;	
+}
+
+h5 { 
+	font-size: 14px; 
+	line-height:normal;
+}
+
+h6 { 
+	font-size: 12px; 
+	margin-bottom: 2px; 
+	text-align:center;	
+}
+
+body { 
+	width: 100%; 
+	min-width: 988px; 
+	overflow: hidden;
+	background:#e1e1e1 url(images/bg.jpg) repeat-x; 
+}
+
+/* HEADER */
+header { 
+	background:url(images/header.png) no-repeat 100px 45px;
+}
+
+.logo { 
+	margin: 40px 0 0 0; 
+	position:absolute; 
+	z-index:1001;
+}
+
+header nav { 
+	font-size:18px;
+}
+
+header nav ul { 
+	float: left; 
+	overflow: hidden; 
+
+}
+
+header nav ul li{ 
+	float: left; 
+	overflow: hidden;  
+	border-left: 1px solid #89b8ec;
+	border-right:1px solid #5685cd; 
+	line-height: 45px; 
+}
+
+header nav ul li a{ 
+	padding: 50px 25px 25px 25px; 
+	text-decoration: none; 
+	color: #fff;  
+}
+
+.navactive { 
+	color: #042851;
+	background:#4a75b2;
+}
+
+.headerlist { 
+	margin:15px 0 0 25px;
+	color:#fff; 
+	overflow: hidden;
+	text-align:right;
+}
+
+/**/
+
+
+.center { 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	clear: both; 
+	overflow: hidden; 
+	width: 960px; 
+}
+
+.wrap { 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	clear: both; 
+	overflow: hidden;  
+	width: 960; 
+	background:#fff;
+}
+
+.column1 { 
+	width: 67%; 
+	overflow: hidden; 
+	float: left; 
+	display: block; 
+	height: 100%;
+}
+
+.column2 { 
+	width: 30%; 
+	overflow: hidden; 
+	display: block; 
+	height: 100%; 
+	float:right;
+	position:relative;
+}
+
+.mleft { 
+	margin-left: 2%;
+	margin-top: 2%;
+	border-bottom:1px solid #919191; 
+}
+
+.mright {
+	margin-right: 2%;
+	margin-top: 2%;
+	border-bottom:1px solid #919191; 
+}
+
+.fright, .fleft { display: block; overflow: hidden; }
+.fright { float: right }
+.fleft { float: left }
+
+/* FORM */
+
+table {
+	border-collapse: collapse;
+	border: .0625em solid #150401;
+	margin: 1em auto;
+}
+
+td {
+	border: .0625em solid #150401;
+	background-color: rgba(245, 237, 217, 0.5);
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	background-color: rgba(50, 28, 18, 0.5);
+	color: #f1f1f1;
+	padding: 0.3em;
+}	
+
+form {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 71.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	clear: left;
+	margin: 1em 1em 1em 10.5%;
+}
+
+#name_first {
+	width: 100%;
+	float: left;
+}
+
+#name_last {
+	width: 100%;
+	float: left;
+}
+
+#email_address {
+	width: 100%;
+	float: left;
+}
+
+#phone_number {
+	width: 100%;
+	float: left;
+}
+
+#department {
+	margin-top: 2.5em;
+}	
+
+#message_box {
+	margin-top: 1.5em;
+}	
+
+#message {
+	width: 100%;
+	float: left;
+	margin-bottom: 1.5em;
+}
+
+#submit {
+	float: right;
+	margin-top: 1.5em;
+}
+
+/* SLIDER */
+
+#slides { 
+	position: relative; 
+	z-index: 1; 
+	width:960px; 
+	background:url(images/slider-bg.png) repeat-x;
+	margin:20px 0 0 0;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border:1px solid #5685cd;
+	height:360px;
+}
+
+.slides_container { 
+	width: 940px; 	
+	display: none; 
+	margin:10px 0 0 10px; 
+	height: 310px; 
+}
+
+.slides_container .slide { 
+	width: 940px; 
+	height: 310px; 
+	display: block; 
+	
+}
+
+.slide figure { 
+	overflow: hidden; 
+	height: 100%; 
+}
+
+.slide img { 
+	max-width: 100%; 
+	height: auto; 
+	width: auto; 
+	display: block; 
+}
+
+.slide figcaption { 
+	position: absolute; 
+	background: white; 
+	height: auto; 
+	min-height: 45px; 
+	width: 190px; 
+	padding: 10px; 
+	bottom: 30px; right: 0; 
+}
+
+.slide figcaption div { 
+	text-align: right; 
+	display: block; 
+	border-right: 1px solid #DDD; 
+	padding: 3px 20px 0 0; 
+	margin: auto 50px auto 0; 
+}
+
+.slide figcaption div p { 
+	margin: 0 
+}
+
+.prev { 
+	position: absolute; 
+	bottom: 35px; 
+	right: 45px; 
+	width: 12px; 
+	height: 15px; 
+	z-index: 10; 
+	display: block; 
+	border: 0; 
+	text-indent: -999em; 
+	overflow: hidden; 
+	background-color: transparent; 
+	text-align: left; 
+	direction: ltr; 
+	background: url(images/left.png) center no-repeat; 
+}
+
+.next { 
+	position: absolute; 
+	bottom: 35px; 
+	right: 25px; 
+	width: 12px; 
+	height: 15px; 
+	z-index: 10; 
+	display: block; 
+	border: 0; 
+	text-indent: -999em; 
+	overflow: hidden; 
+	background-color: transparent; 
+	text-align: left; 
+	direction: ltr; 
+	background: url(images/right.png) center no-repeat; }
+/*---------*/
+
+.disclaimer {
+	float:left; padding:0 15px 8px 0;
+}
+
+/*---
+Links Column 1
+---*/
+a.buttonyahooligans {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/yahooligans.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonyahooligans:hover {
+	opacity:0.8;
+}
+
+a.buttonfunbrain {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/fun_brain.png) ;
+	margin:5px 0 5px 20px; 
+}
+
+a.buttonfunbrain:hover {
+	opacity:0.8;
+}
+
+a.buttonpbskids {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/pbs_kids.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonpbskids:hover {
+	opacity:0.8;
+}
+
+a.buttonmagicschoolbus {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/magic_school_bus.png) ;
+	margin:5px 0 5px 20px; 
+}
+
+a.buttonmagicschoolbus:hover {
+	opacity:0.8;
+}
+
+a.buttonwhitehouseforkids {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/white_house.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonwhitehouseforkids:hover {
+	opacity:0.8;
+}
+
+a.buttonseminolecountypubliclibrary {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/seminole_public_library.png) ;
+	margin:5px 0 5px 20px; 
+}
+
+a.buttonseminolecountypubliclibrary:hover {
+	opacity:0.8;
+}
+
+a.buttoncoolmathforkids {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/cool_math.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttoncoolmathforkids:hover {
+	opacity:0.8;
+}
+
+/*---
+Links Column 2
+---*/
+a.buttonchildrensstorybooks {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/childrens_storybooks.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonchildrensstorybooks:hover {
+	opacity:0.8;
+}
+
+a.buttonseussville {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/seussville.png) ;
+	margin:5px 0 5px 20px; 
+}
+
+a.buttonseussville:hover {
+	opacity:0.8;
+}
+
+a.buttonscholasticreading {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/scholastic.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonscholasticreading:hover {
+	opacity:0.8;
+}
+
+a.buttonwelcometotheplanets {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/planets.png) ;
+	margin:5px 0 5px 20px; 
+}
+
+a.buttonwelcometotheplanets:hover {
+	opacity:0.8;
+}
+
+a.buttonnationalgeographicforkids {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/national_geographic.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonnationalgeographicforkids:hover {
+	opacity:0.8;
+}
+
+a.buttonstarfall {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/starfall.png) ;
+	margin:5px 0 5px 20px; 
+}
+
+a.buttonstarfall:hover {
+	opacity:0.8;
+}
+
+a.buttonbookadventure {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/book_adventure.png) ;
+	margin:5px 0 5px 20px;
+}
+
+a.buttonbookadventure:hover {
+	opacity:0.8;
+}
+
+.disclaimer {
+	float:left; padding:0 15px 8px 0;
+}
+
+/*---
+MAP
+---*/
+.map {
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+	width:450px;
+	height:350px;
+	border:8px soild #fff;
+	margin:10px 0 30px 75px;
+ 
+}
+
+.directions {
+	width: 100%; 
+	overflow: hidden; 
+	float: right; 
+	display: block; 
+	height: 100%; 	
+}
+
+/*---
+QUICK LINKS
+---*/
+a.buttonparentresources {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/buttonparentresources.png) ;
+	margin:5px 0 5px 20px;
+ 
+}
+
+a.buttonparentresources:hover {
+	opacity:0.8;
+}
+
+a.buttonstudentresources {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/buttonstudentresources.png) ;
+	margin:5px 0 5px 20px;
+ 
+}
+
+a.buttonstudentresources:hover {
+	opacity:0.8;
+}
+
+a.buttonstaffresources {
+	width:237px;
+	height:50px;
+	position:relative;
+	float:left;
+	background:url(images/buttonstaffresources.png) ;
+	margin:5px 0 5px 20px;
+ 
+}
+
+a.buttonstaffresources:hover {
+	opacity:0.8;
+}
+
+/* FOOTER */
+footer {
+	width:100%; 
+	height:204px; 
+	background:url(images/footer-bg.jpg) repeat-x; 
+	border-top:1px soild #757575;
+}
+
+footer ul.footer-nav { 
+	float: left; 
+	position:relative;
+	overflow: hidden; 
+	margin:60px 0 0 0;
+	width:150px;
+}
+
+footer ul.footer-nav li a {
+	text-decoration: none;
+	color: #fff;
+	float:left;
+	position:relative;
+}
+
+footer ul.footer-nav li { 
+	float: left; 
+	font-size: 14px; 
+	width:150px; 
+	position:relative;
+}
+
+footer ul.icons { 
+	float: right; 
+	position:relative;
+	overflow: hidden; 
+	margin:60px 0 0 0;
+	width:600px;
+}
+
+footer ul.icons li { 
+	float: right; 
+	position:relative;
+}
+
+footer ul.icons li a{
+	float:left;
+	position:relative;
+	margin:0 0 0 10px;
+}
+
+footer ul.icons li a.buttoncalendar{
+	float:left;
+	position:relative;
+	background:url(images/buttoncalendar.png) 0 0;
+	width:76px;
+	height:76px;
+	
+}
+
+footer ul.icons li a.buttoncalendar:hover{
+	background:url(images/buttoncalendar.png) 0 -76px;
+	
+}
+
+footer ul.icons li a.buttonlunch{
+	float:left;
+	position:relative;
+	background:url(images/buttonlunch.png) 0 0;
+	width:76px;
+	height:76px;
+	
+}
+
+footer ul.icons li a.buttonlunch:hover{
+	background:url(images/buttonlunch.png) 0 -76px;
+	
+}
+
+footer ul.icons li a.buttonptapto{
+	float:left;
+	position:relative;
+	background:url(images/buttonptapto.png) 0 0;
+	width:76px;
+	height:76px;
+	
+}
+
+footer ul.icons li a.buttonptapto:hover{
+	background:url(images/buttonptapto.png) 0 -76px;
+	
+}
+
+footer ul.icons li a.buttonreportcard{
+	float:left;
+	position:relative;
+	background:url(images/buttonreportcard.png) 0 0;
+	width:76px;
+	height:76px;
+	
+}
+
+footer ul.icons li a.buttonreportcard:hover{
+	background:url(images/buttonreportcard.png) 0 -76px;
+	
+}
+
+footer ul.icons li a.buttonteacherstaff{
+	float:left;
+	position:relative;
+	background:url(images/buttonteacherstaff.png) 0 0;
+	width:76px;
+	height:76px;
+	
+}
+
+footer ul.icons li a.buttonteacherstaff:hover{
+	background:url(images/buttonteacherstaff.png) 0 -76px;
+	
+}
+
+footer p { 
+	float: right; 
+	font-size: 12px; 
+	width:600px; 
+	color:#fff;
+	text-align:right;
+	margin:20px 0 0 0;
+}
+
+/*---------*/
+
+.sidebar-module { 
+	margin: 20px 0 0 20px; 
+	position:relative;
+	float:left;
+}
+
+.below {
+	margin-top: 2.98em;
+}
+
+.sidebar-module h5{ 
+	margin: 5 0 0 0; 
+	position:relative;
+	float:left;
+	clear: left;
+}
+
+.sidebar-module p{ 
+	margin: 5 0 0 0; 
+	position:relative;
+	float:left;
+	clear: left;
+}
+
+/* =Media Queries
+================================================================== */
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width:959px) {
+		
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+}
