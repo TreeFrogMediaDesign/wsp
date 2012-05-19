@@ -258,12 +258,12 @@ form {
 	background-color: #fff;
 	border-radius: .625em;
 	padding: 3.333%;
-	width: 71.8461538461538%;
+	width: 73.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
 	float: left;
 	clear: left;
-	margin: 1em 1em 1em 10.5%;
+	margin: 1em 1em 1em 10%;
 }
 
 #name_first {
@@ -401,12 +401,8 @@ form {
 	background: url(images/right.png) center no-repeat; }
 /*---------*/
 
-.disclaimer {
-	float:left; padding:0 15px 8px 0;
-}
-
 /*---
-Links Column 1
+Kid Zone Links Column 1
 ---*/
 a.buttonyahooligans {
 	width:237px;
@@ -500,7 +496,7 @@ a.buttoncoolmathforkids:hover {
 }
 
 /*---
-Links Column 2
+Kid Zone Links Column 2
 ---*/
 a.buttonchildrensstorybooks {
 	width:237px;
