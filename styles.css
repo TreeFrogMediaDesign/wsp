@@ -262,7 +262,7 @@ form {
 	background-color: #fff;
 	border-radius: .625em;
 	padding: 3.333%;
-	width: 73.8461538461538%;
+	width: 74.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
 	float: left;
@@ -313,23 +313,9 @@ form {
 }
 
 #submit {
-	font-family: 'Della Respira', serif;
 	font-size: 1.25em
-	float: right;
 	margin-top: 1.5em;
-}
-
-.buttonsubmit {
-	width:6.75em;
-	height:3.375em;
-	position:relative;
-	float:right;
-	background:url(images/submit.png);
-	margin: 0 0 0 0;
-}
-
-.buttonsubmit:hover {
-	opacity:0.8;
+	float: right;
 }
 
 /* SLIDER */
