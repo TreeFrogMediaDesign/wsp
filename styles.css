@@ -23,8 +23,8 @@ footer, header, hgroup, menu, nav, section {display: block; overflow:hidden;}
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 12px; line-height: 1.5; }
-body, button, input, select, textarea { font-family: Arial, sans-serif; color: #666666; }
+body { margin: 0; font-size: 14px; line-height: 1.5; }
+body, button, input, select, textarea { font-family: Arial, sans-serif; color: #4b4b4b; }
 ::-moz-selection { background: #f58a18; color: #fff; text-shadow: none; }
 ::selection { background: #f58a18; color: #fff; text-shadow: none; }
 .last{ 
@@ -81,11 +81,11 @@ STYLES
 Author: Brent C. Johns - Tree Frog Media Design
 ---- */
 h1, h2, h3, h4, h5, h6 { 
-	margin: 0 0 1em 
+	margin: 0 
 }
 
 h1 { 
-	font-size: 36px;  
+	font-size: 2.25em;  
 	color: #6693d6; 
 	font-weight: normal; 
 	font-family: 'BubblegumSansRegular';
@@ -93,32 +93,37 @@ h1 {
 }
 
 h2 { 
-	font-size: 30px; 
+	font-size: 1.875em; 
 	color: #6693d6; 
 	font-weight: normal; 
-	font-family: 'BubblegumSansRegular';
+	font-family: 'Bubblegum Sans', cursive;
 	font-style:normal;
 	text-align:center;
 }
 
 h3 { 
-	font-size: 18px;
+	font-size: 1.125em;
 	text-align:center;
 	line-height:normal;
 }
 
 h4 { 
-	font-size: 16px;	
+	font-size: 1.6875em; 
+	color: #6693d6; 
+	font-weight: normal; 
+	font-family: 'Bubblegum Sans', cursive;
+	font-style:normal;	
 }
 
 h5 { 
-	font-size: 14px; 
+	font-size: 1em; 
 	line-height:normal;
+	margin: .5em 0 .5em 0;
 }
 
 h6 { 
-	font-size: 12px; 
-	margin-bottom: 2px; 
+	font-size: .875em; 
+	margin: 1em 0 .5em 0;
 	text-align:center;	
 }
 
@@ -135,31 +140,30 @@ header {
 }
 
 .logo { 
-	margin: 40px 0 0 0; 
+	margin: 2.5em 0 0 0; 
 	position:absolute; 
 	z-index:1001;
 }
 
 header nav { 
-	font-size:18px;
+	font-size:1.125em;
 }
 
 header nav ul { 
 	float: left; 
 	overflow: hidden; 
-
 }
 
 header nav ul li{ 
 	float: left; 
 	overflow: hidden;  
-	border-left: 1px solid #89b8ec;
-	border-right:1px solid #5685cd; 
-	line-height: 45px; 
+	border-left: .0625em solid #89b8ec;
+	border-right:.0625em solid #5685cd; 
+	line-height: 2.8125em; 
 }
 
 header nav ul li a{ 
-	padding: 50px 25px 25px 25px; 
+	padding: 3.125em 1.5625em 1.5625em 1.5625em; 
 	text-decoration: none; 
 	color: #fff;  
 }
@@ -170,7 +174,7 @@ header nav ul li a{
 }
 
 .headerlist { 
-	margin:15px 0 0 25px;
+	margin:.9375em 0 0 1.5625em;
 	color:#fff; 
 	overflow: hidden;
 	text-align:right;
@@ -309,8 +313,23 @@ form {
 }
 
 #submit {
+	font-family: 'Della Respira', serif;
+	font-size: 1.25em
 	float: right;
 	margin-top: 1.5em;
+}
+
+.buttonsubmit {
+	width:6.75em;
+	height:3.375em;
+	position:relative;
+	float:right;
+	background:url(images/submit.png);
+	margin: 0 0 0 0;
+}
+
+.buttonsubmit:hover {
+	opacity:0.8;
 }
 
 /* SLIDER */
@@ -410,7 +429,7 @@ form {
 /*---------*/
 
 #cartoon_kids {
-	padding: 0 0 0 5.25em;
+	padding: 0 0 1.1em 5.25em;
 }
 
 /*---
@@ -422,7 +441,7 @@ a.buttonyahooligans {
 	position:relative;
 	float:left;
 	background:url(images/yahooligans.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonyahooligans:hover {
@@ -435,7 +454,7 @@ a.buttonfunbrain {
 	position:relative;
 	float:left;
 	background:url(images/fun_brain.png) ;
-	margin:2.5px 0 2.5px 20px; 
+	margin: .15625em 0 .15625em 1.25em; 
 }
 
 a.buttonfunbrain:hover {
@@ -448,7 +467,7 @@ a.buttonpbskids {
 	position:relative;
 	float:left;
 	background:url(images/pbs_kids.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonpbskids:hover {
@@ -461,7 +480,7 @@ a.buttonmagicschoolbus {
 	position:relative;
 	float:left;
 	background:url(images/magic_school_bus.png) ;
-	margin:2.5px 0 2.5px 20px; 
+	margin: .15625em 0 .15625em 1.25em; 
 }
 
 a.buttonmagicschoolbus:hover {
@@ -474,7 +493,7 @@ a.buttonwhitehouseforkids {
 	position:relative;
 	float:left;
 	background:url(images/white_house.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonwhitehouseforkids:hover {
@@ -487,7 +506,7 @@ a.buttonseminolecountypubliclibrary {
 	position:relative;
 	float:left;
 	background:url(images/seminole_public_library.png) ;
-	margin:2.5px 0 2.5px 20px; 
+	margin: .15625em 0 .15625em 1.25em; 
 }
 
 a.buttonseminolecountypubliclibrary:hover {
@@ -500,7 +519,7 @@ a.buttoncoolmathforkids {
 	position:relative;
 	float:left;
 	background:url(images/cool_math.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttoncoolmathforkids:hover {
@@ -516,7 +535,7 @@ a.buttonchildrensstorybooks {
 	position:relative;
 	float:left;
 	background:url(images/childrens_storybooks.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonchildrensstorybooks:hover {
@@ -529,7 +548,7 @@ a.buttonseussville {
 	position:relative;
 	float:left;
 	background:url(images/seussville.png) ;
-	margin:2.5px 0 2.5px 20px; 
+	margin: .15625em 0 .15625em 1.25em; 
 }
 
 a.buttonseussville:hover {
@@ -542,7 +561,7 @@ a.buttonscholasticreading {
 	position:relative;
 	float:left;
 	background:url(images/scholastic.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonscholasticreading:hover {
@@ -555,7 +574,7 @@ a.buttonwelcometotheplanets {
 	position:relative;
 	float:left;
 	background:url(images/planets.png) ;
-	margin:2.5px 0 2.5px 20px; 
+	margin: .15625em 0 .15625em 1.25em; 
 }
 
 a.buttonwelcometotheplanets:hover {
@@ -568,7 +587,7 @@ a.buttonnationalgeographicforkids {
 	position:relative;
 	float:left;
 	background:url(images/national_geographic.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonnationalgeographicforkids:hover {
@@ -581,7 +600,7 @@ a.buttonstarfall {
 	position:relative;
 	float:left;
 	background:url(images/starfall.png) ;
-	margin:2.5px 0 2.5px 20px; 
+	margin: .15625em 0 .15625em 1.25em; 
 }
 
 a.buttonstarfall:hover {
@@ -594,7 +613,7 @@ a.buttonbookadventure {
 	position:relative;
 	float:left;
 	background:url(images/book_adventure.png) ;
-	margin:2.5px 0 2.5px 20px;
+	margin: .15625em 0 .15625em 1.25em;
 }
 
 a.buttonbookadventure:hover {
@@ -602,7 +621,8 @@ a.buttonbookadventure:hover {
 }
 
 .disclaimer {
-	float:left; padding: 0 1.5em .5em 3em;
+	font-size: .75em;
+	float:left; padding: 0 1.5em .5em 3.2em;
 }
 
 /*---
@@ -637,7 +657,6 @@ a.buttonparentresources {
 	float:left;
 	background:url(images/buttonparentresources.png) ;
 	margin:5px 0 5px 20px;
- 
 }
 
 a.buttonparentresources:hover {
