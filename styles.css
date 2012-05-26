@@ -612,6 +612,177 @@ a.buttonbookadventure:hover {
 }
 
 /*---
+Staff Resources Links Column 1
+---*/
+a.buttonadministation {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/administation.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonfrontofficestaff {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/front_office_staff.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonguidancedept {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/guidance_dept.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonesss {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/esss.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonell {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/ell.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonsupportstaff {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/support_staff.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+/*---
+Staff Resources Links Column 2
+---*/
+a.buttontitle1staff {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/title_1_staff.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonparaprofessionalsassistants {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/paraprofessionals_assistants.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttontechnologydept {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/technology_dept.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonextendedday {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/extended_day.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttoncustodialstaff {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/custodial_staff.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonprek {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/pre_k.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+/*---
+Staff Resources Links Column 3
+---*/
+a.buttonkindergarten {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/kindergarten.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonfirstgrade {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/first_grade.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonsecondgrade {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/second_grade.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonthirdgrade {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/third_grade.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonfourthgrade {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/fourth_grade.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+a.buttonfifthgrade {
+	width:200px;
+	height:55px;
+	position:relative;
+	float:left;
+	background:url(images/fifth_grade.png) ;
+	margin: .15625em 0 .15625em 1.25em;
+}
+
+/*---
 MAP
 ---*/
 .map {
