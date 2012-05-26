@@ -782,6 +782,96 @@ a.buttonfifthgrade {
 	margin: .15625em 0 .15625em 1.25em;
 }
 
+#srbuttons {
+	-moz-column-count: 3;
+	-moz-column-gap: 1em;
+}
+
+a.srbuttonc1:hover {
+	opacity:0.8;
+}
+
+#srbottomc1 {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border: .1875em solid #150401;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+a.srbuttonc2:hover {
+	opacity:0.8;
+}
+
+#srbottomc2 {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border: .1875em solid #150401;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+a.srbuttonc3:hover {
+	opacity:0.8;
+}
+
+#srbottomc3 {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border: .1875em solid #150401;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+/*---
+Staff Resources Bottom Links
+---*/
+#srbottom {
+	-moz-column-count: 2;
+	-moz-column-gap: 2.25em;
+}
+
+#staff_resources {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border: .1875em solid #150401;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
+#gudiance {
+	color: #150401;
+	font-size: 1em;
+	background-color: #fff;
+	border: .1875em solid #150401;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
+}
+
 /*---
 MAP
 ---*/
